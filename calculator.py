@@ -1,6 +1,6 @@
-a = int(input("Enter first number"))
-b = int(input("Enter second number"))
-c = str(input("Enter the calculation operation"))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = str(input("Enter the calculation operation: "))
 
 if c == "+":
 	print(a+b)
