@@ -24,21 +24,11 @@ class Calc():
     def prt(self, msg):
         print(msg)
 
+class ScientificCalc(Calc):
+	def power(self, a):
+		result = a*a
+		self.prt("Result =" +str(result)) 
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = str(input("Enter the calculation operation: "))
+def test_func(someStr):
+	print(someStr)
 
-calc = Calc("anyname")
-
-if c == "+":
-    calc.add(a, b)
-
-if c == "-":
-    calc.sub(a, b)
-
-if c == "*":
-    calc.mult(a, b)
-
-if c == "/":
-    calc.div(a, b)
